@@ -1,0 +1,42 @@
+{
+    "sourceFile": "views/users/notAuthorize.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1692114245267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692114254323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"../\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/images/lock.png\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1692114264567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"/p\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/images/lock.png\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1692114270568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"/css/\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/images/lock.png\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1692114279764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"/public/css//\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/images/lock.png\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1692114568347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"/public/css/accessDenied.css\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1692114573915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <!-- Fontawesome -->\n+    <script\n+      src=\"https://kit.fontawesome.com/42a182743f.js\"\n+      crossorigin=\"anonymous\"\n+    ></script>\n+    <!-- css -->\n+    <link rel=\"stylesheet\" href=\"/public/css/accessDenied.css\" />\n+    <title>Not Authorize</title>\n+  </head>\n+  <body>\n+    <div class=\"notAuthorize-wrapper\">\n+      <h1>Not Authorized</h1>\n+      <!-- not allow icon fontawesom -->\n+\n+      <i class=\"fas fa-exclamation-circle\"></i>\n+      <img src=\"/public/images/\" alt=\"\" />\n+\n+      <p>You are not authorize to access this page</p>\n+      <a href=\"/\">Go Back</a>\n+    </div>\n+  </body>\n+</html>\n"
+                }
+            ],
+            "date": 1692114245266,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- Fontawesome -->\n    <script\n      src=\"https://kit.fontawesome.com/42a182743f.js\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <!-- css -->\n    <link rel=\"stylesheet\" href=\".\" />\n    <title>Not Authorize</title>\n  </head>\n  <body>\n    <div class=\"notAuthorize-wrapper\">\n      <h1>Not Authorized</h1>\n      <!-- not allow icon fontawesom -->\n\n      <i class=\"fas fa-exclamation-circle\"></i>\n      <img src=\"/images/lock.png\" alt=\"\" />\n\n      <p>You are not authorize to access this page</p>\n      <a href=\"/\">Go Back</a>\n    </div>\n  </body>\n</html>\n"
+        }
+    ]
+}

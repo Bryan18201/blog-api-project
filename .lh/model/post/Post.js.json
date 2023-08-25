@@ -1,0 +1,18 @@
+{
+    "sourceFile": "model/post/Post.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1692973167848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1692973167848,
+            "name": "Commit-0",
+            "content": "const mongoose = require(\"mongoose\");\n\n//title, desc, category, image\nconst postSchema = new mongoose.Schema(\n  {\n    title: {\n      type: String,\n      required: true,\n    },\n\n    description: {\n      type: String,\n      required: true,\n    },\n    category: {\n      type: String,\n      required: true,\n      enum: [\"react js\", \"html\", \"css\", \"node js\", \"javascript\", \"java\",other\"],\n    },\n    image: {\n      type: String,\n      required: true,\n    },\n    user: {\n      type: mongoose.Schema.Types.ObjectId,\n      ref: \"User\",\n      required: true,\n    },\n    comments: [\n      {\n        type: mongoose.Schema.Types.ObjectId,\n        ref: \"Comment\",\n      },\n    ],\n  },\n  {\n    timestamps: true,\n  }\n);\n\n//compile schema to form model\n\nconst Post = mongoose.model(\"Post\", postSchema);\n\n//export model\nmodule.exports = Post;\n"
+        }
+    ]
+}

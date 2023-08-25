@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1692021399653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1692021399653,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"fullstack-blog\",\n  \"version\": \"1.0.0\",\n  \"description\": \"fullstack blog app\",\n  \"main\": \"server.js\",\n  \"scripts\": {\n    \"server\": \"nodemon server.js\",\n    \"start\": \"node server.js\"\n  },\n  \"keywords\": [\n    \"blog\",\n    \"nodejs\"\n  ],\n  \"author\": \"Bryan Jose\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"bcryptjs\": \"^2.4.3\",\n    \"cloudinary\": \"^1.40.0\",\n    \"connect-mongo\": \"^4.6.0\",\n    \"dotenv\": \"^16.3.1\",\n    \"express\": \"^4.18.2\",\n    \"express-session\": \"^1.17.3\",\n    \"mongoose\": \"^6.11.5\",\n    \"multer\": \"^1.4.5-lts.1\",\n    \"multer-storage-cloudinary\": \"^4.0.0\"\n  },\n  \"devDependencies\": {\n    \"nodemon\": \"^2.0.20\"\n  }\n}\n"
+        }
+    ]
+}

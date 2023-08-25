@@ -1,0 +1,50 @@
+{
+    "sourceFile": "views/partials/navbar.ejs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1692035235736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692035252636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,24 @@\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n \r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"#\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692035442418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"#\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692036788923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"/\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692037008697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"/\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/login\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692037017410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"/\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/login\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/login\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692037039006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"/\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/login\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/register\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/register\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                },
+                {
+                    "date": 1692037044120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       <li>\r\n         <a href=\"/api/v1/users/register\">Register</a>\r\n       </li>\r\n       <li>\r\n-        <a href=\"/api/v1/users/register\">Profil</a>\r\n+        <a href=\"/api/v1/users/register\">Profile</a>\r\n       </li>\r\n       <li>\r\n         <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n       </li>\r\n"
+                },
+                {
+                    "date": 1692037049250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<link rel=\"stylesheet\" href=\"/public/css/style.css\" />\r\n+<!-- nav -->\r\n+<nav>\r\n+    <div>\r\n+      <img src=\"/public/images/logo.png\" alt=\"logo\" />\r\n+    </div>\r\n+\r\n+    <ul>\r\n+      <li>\r\n+        <a href=\"/\">Home</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\">Posts</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/login\">Login</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/register\">Register</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"/api/v1/users/profile-page\">Profile</a>\r\n+      </li>\r\n+      <li>\r\n+        <a href=\"#\" class=\"create-post-btn\">New Post</a>\r\n+      </li>\r\n+    </ul>\r\n+  </nav>\r\n"
+                }
+            ],
+            "date": 1692035235736,
+            "name": "Commit-0",
+            "content": "\r\n"
+        }
+    ]
+}

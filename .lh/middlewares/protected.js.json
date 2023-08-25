@@ -1,0 +1,30 @@
+{
+    "sourceFile": "middlewares/protected.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1692114296242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1692114302165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+const appErr = require(\"../utils/appErr\");\n+\n+const protected = (req, res, next) => {\n+  //check if user is login\n+  if (req.session.userAuth) {\n+    next();\n+  } else {\n+   res.render('users/')\n+  }\n+};\n+module.exports = protected;\n"
+                },
+                {
+                    "date": 1692114308127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,19 +4,8 @@\n   //check if user is login\n   if (req.session.userAuth) {\n     next();\n   } else {\n-   res.render('users/')\n+   res.render('users/notAuthorize')\n   }\n };\n module.exports = protected;\n-const appErr = require(\"../utils/appErr\");\n-\n-const protected = (req, res, next) => {\n-  //check if user is login\n-  if (req.session.userAuth) {\n-    next();\n-  } else {\n-   res.render\n-  }\n-};\n-module.exports = protected;\n"
+                },
+                {
+                    "date": 1692114313491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+const appErr = require(\"../utils/appErr\");\n+\n+const protected = (req, res, next) => {\n+  //check if user is login\n+  if (req.session.userAuth) {\n+    next();\n+  } else {\n+   res.render('users/notAuthorize')\n+  }\n+};\n+module.exports = protected;\n"
+                }
+            ],
+            "date": 1692114296242,
+            "name": "Commit-0",
+            "content": "const appErr = require(\"../utils/appErr\");\n\nconst protected = (req, res, next) => {\n  //check if user is login\n  if (req.session.userAuth) {\n    next();\n  } else {\n   res.render\n  }\n};\nmodule.exports = protected;\n"
+        }
+    ]
+}
